@@ -1,0 +1,46 @@
+
+.headline{
+    display: flex;
+    margin-top: 80px;
+
+    .headline_text{
+        h1{
+            span{
+                font: normal 700 48px/56px Mulish;
+                display: block;
+            }
+        }    
+        
+        p{
+            margin-top: 25px;
+            font: normal 300 21px/32px Mulish;
+            color: #7D7987;
+        }
+
+        input[type="button"]{
+            border-radius: 55px;
+            background: #458FF6;
+            border: none;
+            font: normal 700 18px/23px Mulish;
+            color: #fff;
+            width: 200px;
+            height: 56px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .vector{
+            background:  no-repeat center/contain url("https://media.discordapp.net/attachments/907169630538326076/1141528499962794045/element.png?width=102&height=143");
+            width: 131.581px;
+            height: 115px;
+            position: absolute;
+            left: -30px;
+        }
+    }
+    
+    .headline_image{
+        background:  no-repeat center/contain url("https://media.discordapp.net/attachments/907169630538326076/1141382788348645496/trafalgar-header_illustration_1_1.png?width=695&height=600");
+        height: 400px;
+        width: 100%;
+    }
+}

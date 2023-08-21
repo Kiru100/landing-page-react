@@ -1,0 +1,44 @@
+
+.feature{
+    .leading_healthcare, .download_mobile{
+        display: flex;
+        margin-top: 220px;
+        align-items: flex-end;
+
+        .leading_healthcare_icon{
+            background:   no-repeat center/contain url("../../assets/images/trafalgar-illustration sec02 1.svg");
+            width: 650px;
+            height: 477px;
+            position: relative;
+            left: -30px;
+        }
+
+        .download_mobile_icon{
+            background:   no-repeat center/contain url("../../assets/images/trafalgar-illustration sec03 1.svg");
+            width: 650px;
+            height: 477px;
+            position: relative;
+            left: -30px;
+        }
+
+        .feature_text{
+            width: 50%;
+
+            h2{
+                font: normal 700 36px/56px Mulish;
+                color: #000;
+            }
+            p{
+                font: normal 300 18px/30px Mulish;
+                color: #7D7987;
+            }
+            input[type="button"]{
+                margin-top: 40px;
+            }
+        }
+    }
+    .download_mobile{
+        justify-content: space-between;
+    }
+    
+}

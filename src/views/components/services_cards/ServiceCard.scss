@@ -1,0 +1,64 @@
+
+
+.service_card{
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    border-radius: 20px;
+    background: #FFF;
+    width: 330px;
+    height: 354px;
+    margin-top: 25px;
+    padding: 50px;
+    text-align: start;
+
+    h3{
+        font: normal 700 24px/56px Mulish;
+        color: #000;
+    }
+    p{
+        font: normal 300 16px/28px Mulish;
+        color: #7D7987;
+        text-align: start;
+        width: 100%;
+    }
+    .doctor{
+        background:  no-repeat url("https://cdn.discordapp.com/attachments/907169630538326076/1141558296336138311/Frame.png");
+        height: 90px;
+        display: block;
+    }
+    
+    .pharmacy{
+        background:  no-repeat url("https://media.discordapp.net/attachments/907169630538326076/1141558297204379729/Frame-2.png?width=77&height=106");
+        height: 90px;
+        display: block;
+    }
+
+    .consultation{
+        background:  no-repeat url("https://media.discordapp.net/attachments/907169630538326076/1141558296747196568/Frame-1.png?width=85&height=118");
+        height: 90px;
+        display: block;
+    }
+
+    .details_info{
+        background:  no-repeat url("https://media.discordapp.net/attachments/907169630538326076/1141558297439256616/Frame-3.png?width=85&height=118");
+        height: 90px;
+        display: block;
+    }
+
+    .tracking{
+        background:  no-repeat url("https://media.discordapp.net/attachments/907169630538326076/1141558297762222172/Frame-4.png?width=87&height=118");
+        height: 90px;
+        display: block;
+    }
+
+    .emergency_care{
+        background:  no-repeat url("https://media.discordapp.net/attachments/907169630538326076/1141558298043220018/Frame-5.png?width=100&height=90");
+        height: 90px;
+        display: block;
+    }
+
+    &::before{
+        // background:  no-repeat center/contain url("https://media.discordapp.net/attachments/907169630538326076/1141570943408414790/Vector_1.png?width=741&height=600");
+        // height: 90px;
+        // display: block;
+    }
+}

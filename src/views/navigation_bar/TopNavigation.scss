@@ -1,0 +1,57 @@
+$dark_blue_sky: #458FF6;
+$haiti: #1F1534;
+$white: #fff;
+
+.top_navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+
+    .site_logo{
+        display: flex;
+        align-items: center;
+
+        span:first-of-type{
+            background-color: $dark_blue_sky;
+            width: 41px;
+            height: 41px;
+            font: 700 26px/33px Muli;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-family: 'Mulish', sans-serif;
+            color: $white;
+        }
+
+        span:nth-of-type(2){   
+            margin-left: 12px;    
+            font: 700 24px/30px Mulish;
+            font-family: 'Mulish', sans-serif;
+        }
+    }
+
+    ul{
+        display: flex;
+        list-style-type: none;  
+        margin: 0;
+        justify-content: space-around;
+        
+        li{
+            margin-left: 40px;
+            display: flex;
+            align-items: center;
+            
+            a{
+                font: 400 18px/23px Mulish;
+                text-decoration:none;
+                color: $haiti;
+                opacity: 50%;
+                &.active{
+                    font: 700 18px/23px Mulish;
+                    opacity: 100%;
+                }
+            }
+        }
+    }
+}
